@@ -74,7 +74,8 @@
     "webtools/",
     "samples/",
     "scripts/gsn*",
-    "webtools.webpack.js"
+    "webtools.webpack.js",
+	"server/"
   ],
   "main": "src/js/relayclient/index.js"
 }
