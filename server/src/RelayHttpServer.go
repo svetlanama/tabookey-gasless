@@ -341,7 +341,7 @@ func waitForOwnerActions() {
 		log.Println("Server's balance too low. Waiting for funding...")
 		sleep(10*time.Second, shortSleep)
 	}
-	log.Println("Relay funded. Balance:", balance)
+	log.Println("Sveta: Relay funded. Balance:", balance)
 }
 
 func keepAlive() {
